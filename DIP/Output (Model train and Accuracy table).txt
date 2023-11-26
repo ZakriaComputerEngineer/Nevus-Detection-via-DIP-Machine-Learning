@@ -1,0 +1,102 @@
+Classifier: DecisionTreeClassifier
+Overall Accuracy: 52.50%
+Classification Report - DecisionTreeClassifier:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.50      0.41      0.45        17
+  Common nevus       0.58      0.61      0.59        18
+      Melanoma       0.43      0.60      0.50         5
+
+      accuracy                           0.53        40
+     macro avg       0.50      0.54      0.52        40
+  weighted avg       0.53      0.53      0.52        40
+
+
+
+Classifier: LogisticRegression
+Overall Accuracy: 55.00%
+Classification Report - LogisticRegression:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.50      0.35      0.41        17
+  Common nevus       0.58      0.78      0.67        18
+      Melanoma       0.50      0.40      0.44         5
+
+      accuracy                           0.55        40
+     macro avg       0.53      0.51      0.51        40
+  weighted avg       0.54      0.55      0.53        40
+
+
+
+Classifier: AdaBoostClassifier
+Overall Accuracy: 55.00%
+Classification Report - AdaBoostClassifier:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.50      0.76      0.60        17
+  Common nevus       0.73      0.44      0.55        18
+      Melanoma       0.33      0.20      0.25         5
+
+      accuracy                           0.55        40
+     macro avg       0.52      0.47      0.47        40
+  weighted avg       0.58      0.55      0.54        40
+
+
+
+Classifier: KNeighborsClassifier
+Overall Accuracy: 55.00%
+Classification Report - KNeighborsClassifier:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.57      0.24      0.33        17
+  Common nevus       0.55      1.00      0.71        18
+      Melanoma       1.00      0.00      0.00         5
+
+      accuracy                           0.55        40
+     macro avg       0.71      0.41      0.35        40
+  weighted avg       0.61      0.55      0.46        40
+
+
+
+Classifier: RandomForestClassifier
+Overall Accuracy: 60.00%
+Classification Report - RandomForestClassifier:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.67      0.47      0.55        17
+  Common nevus       0.56      0.78      0.65        18
+      Melanoma       0.67      0.40      0.50         5
+
+      accuracy                           0.60        40
+     macro avg       0.63      0.55      0.57        40
+  weighted avg       0.62      0.60      0.59        40
+
+
+
+Classifier: GridSearchCV
+Overall Accuracy: 57.50%
+Classification Report - GridSearchCV:
+                 precision    recall  f1-score   support
+
+Atypical nevus       0.54      0.41      0.47        17
+  Common nevus       0.61      0.78      0.68        18
+      Melanoma       0.50      0.40      0.44         5
+
+      accuracy                           0.57        40
+     macro avg       0.55      0.53      0.53        40
+  weighted avg       0.57      0.57      0.56        40
+
+
+
+
+Results:
++------------------------+----------------------+
+|       Classifier       | Overall Accuracy (%) |
++------------------------+----------------------+
+| DecisionTreeClassifier |        52.50         |
+|   LogisticRegression   |        55.00         |
+|   AdaBoostClassifier   |        55.00         |
+|  KNeighborsClassifier  |        55.00         |
+| RandomForestClassifier |        60.00         |
+|      GridSearchCV      |        57.50         |
++------------------------+----------------------+

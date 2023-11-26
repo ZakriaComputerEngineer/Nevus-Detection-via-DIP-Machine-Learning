@@ -1,0 +1,287 @@
+Classifier: DecisionTreeClassifier
+Overall Accuracy on 20% Test Data: 52.50%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |     Melanoma     |   True   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |     Melanoma     |  False   |
+| Image 5  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 6  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 7  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 12 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 13 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 14 |    Melanoma    |   Common Nevus   |  False   |
+| Image 15 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 18 |  Common Nevus  |     Melanoma     |  False   |
+| Image 19 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 20 | Atypical Nevus |     Melanoma     |  False   |
+| Image 21 |    Melanoma    |     Melanoma     |   True   |
+| Image 22 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 23 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 26 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 27 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 28 |    Melanoma    |     Melanoma     |   True   |
+| Image 29 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 30 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |     Melanoma     |  False   |
+| Image 33 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 34 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 35 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 36 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 37 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 38 | Atypical Nevus |     Melanoma     |  False   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  52.50%  |
++----------+----------------+------------------+----------+
+
+Classifier: LogisticRegression
+Overall Accuracy on 20% Test Data: 55.00%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 5  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 6  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 7  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 12 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 13 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 14 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 15 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 18 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 19 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 20 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 21 |    Melanoma    |     Melanoma     |   True   |
+| Image 22 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 23 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 26 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 27 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 28 |    Melanoma    |     Melanoma     |   True   |
+| Image 29 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 30 | Atypical Nevus |     Melanoma     |  False   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |     Melanoma     |  False   |
+| Image 33 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 34 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 35 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 36 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 37 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 38 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  55.00%  |
++----------+----------------+------------------+----------+
+
+Classifier: AdaBoostClassifier
+Overall Accuracy on 20% Test Data: 55.00%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 5  |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 6  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 7  |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |     Melanoma     |  False   |
+| Image 12 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 13 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 14 |    Melanoma    |     Melanoma     |   True   |
+| Image 15 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 18 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 19 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 20 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 21 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 22 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 23 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 26 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 27 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 28 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 29 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 30 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |     Melanoma     |  False   |
+| Image 33 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 34 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 35 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 36 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 37 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 38 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  55.00%  |
++----------+----------------+------------------+----------+
+
+Classifier: KNeighborsClassifier
+Overall Accuracy on 20% Test Data: 55.00%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |   Common Nevus   |  False   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 5  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 6  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 7  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 12 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 13 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 14 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 15 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 18 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 19 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 20 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 21 |    Melanoma    |   Common Nevus   |  False   |
+| Image 22 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 23 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 26 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 27 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 28 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 29 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 30 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 33 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 34 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 35 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 36 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 37 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 38 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  55.00%  |
++----------+----------------+------------------+----------+
+
+Classifier: RandomForestClassifier
+Overall Accuracy on 20% Test Data: 60.00%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |   Common Nevus   |  False   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 5  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 6  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 7  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 12 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 13 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 14 |    Melanoma    |     Melanoma     |   True   |
+| Image 15 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 18 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 19 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 20 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 21 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 22 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 23 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 26 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 27 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 28 |    Melanoma    |     Melanoma     |   True   |
+| Image 29 |    Melanoma    |   Common Nevus   |  False   |
+| Image 30 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |     Melanoma     |  False   |
+| Image 33 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 34 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 35 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 36 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 37 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 38 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  60.00%  |
++----------+----------------+------------------+----------+
+
+Classifier: GridSearchCV
+Overall Accuracy on 20% Test Data: 55.00%
++----------+----------------+------------------+----------+
+|  Image   |   True Label   | Predicted Label  | Accuracy |
++----------+----------------+------------------+----------+
+| Image 1  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 2  |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 3  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 4  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 5  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 6  | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 7  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 8  |  Common Nevus  |   Common Nevus   |   True   |
+| Image 9  | Atypical Nevus |   Common Nevus   |  False   |
+| Image 10 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 11 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 12 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 13 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 14 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 15 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 16 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 17 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 18 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 19 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 20 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 21 |    Melanoma    |     Melanoma     |   True   |
+| Image 22 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 23 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 24 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 25 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 26 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 27 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 28 |    Melanoma    |     Melanoma     |   True   |
+| Image 29 |    Melanoma    |  Atypical Nevus  |  False   |
+| Image 30 | Atypical Nevus |     Melanoma     |  False   |
+| Image 31 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 32 |  Common Nevus  |     Melanoma     |  False   |
+| Image 33 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 34 | Atypical Nevus |  Atypical Nevus  |   True   |
+| Image 35 |  Common Nevus  |  Atypical Nevus  |  False   |
+| Image 36 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 37 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 38 | Atypical Nevus |   Common Nevus   |  False   |
+| Image 39 |  Common Nevus  |   Common Nevus   |   True   |
+| Image 40 |  Common Nevus  |   Common Nevus   |   True   |
+|          |                | Overall Accuracy |  55.00%  |
++----------+----------------+------------------+----------+
