@@ -1,6 +1,6 @@
 # Nevus-Detection-via-DIP-Machine-Learning
-Kindly read the problem statement first to understand my approaches
-
+Kindly read the problem statement first to understand my approaches, you need to download the ph2 folder from the link given below and give directory to the create_dataset code to generate format (class wise image seperation) for model genearation.
+LINK: https://drive.google.com/file/d/1k8gakUxxMNlwCk4Fz0ABo21dgf_Fs1gD/view?usp=drive_link
 DIP:
 1) Data seperation and Classification
 2) Feature extraction
