@@ -11,13 +11,13 @@ DIP:
 4) Box plot graph
 5) Analysis: Box plot shows variation among provided images in each of these 3 classes
 6) using different models for detection and checking the accuracy:
-  1) Decision Tree Classifier   47.50%
-  2) Logistic Regression        55.00%
-  3) AdaBoost Classifier        55.00%
-  4) KNeighbors Classifier      55.00%
-  5) Random Forest Classifier   60.00%
-  6) Grid Search CV             55.00%
-7) Per image accuracy table
+    a) Decision Tree Classifier   47.50%
+    b) Logistic Regression        55.00%
+    c) AdaBoost Classifier        55.00%
+    d) KNeighbors Classifier      55.00%
+    e) Random Forest Classifier   60.00%
+    f) Grid Search CV             55.00%
+7) test images accuracy table
 
 ML:
 
@@ -25,5 +25,5 @@ ML:
 2) threshold, feature extraction (hog) and epoche = 10 setting for model training (tensorflow)
 3) preprocessing image
 4) Dedection using trained model:
-   1) Best Accuracy: 95.3%
-   2) Worst Accuracy: 49.0%
+   a) Best Accuracy: 95.3%
+   b) Worst Accuracy: 49.0%
