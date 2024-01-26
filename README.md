@@ -1,7 +1,10 @@
 # Nevus-Detection-via-DIP-Machine-Learning
 Kindly read the problem statement first to understand my approaches, you need to download the ph2 folder from the link given below and give directory to the create_dataset code to generate format (class wise image seperation) for model genearation.
-LINK: https://drive.google.com/file/d/1k8gakUxxMNlwCk4Fz0ABo21dgf_Fs1gD/view?usp=drive_link
+
+Dataset and Model file link: https://drive.google.com/drive/folders/1c8tH-UwQfXQkHwmLfSPPtWpcaVODaq17?usp=drive_link
+
 DIP:
+
 1) Data seperation and Classification
 2) Feature extraction
 3) Feature scalar value assigning for further graphical representation
@@ -17,6 +20,7 @@ DIP:
 7) Per image accuracy table
 
 ML:
+
 1) Data set fornat for model training
 2) threshold, feature extraction (hog) and epoche = 10 setting for model training (tensorflow)
 3) preprocessing image
